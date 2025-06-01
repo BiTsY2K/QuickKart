@@ -6,12 +6,13 @@ import { SearchProvider } from "@/contexts/search-context-provider";
 
 export default function ApplicationAdminPage() {
   return (
-
-    <SidebarProvider>
-      <AppSidebar />
-      <SidebarInset>
-        <SiteHeader />
-      </SidebarInset>
-    </SidebarProvider>
+    <SearchProvider>
+      <SidebarProvider>
+        <AppSidebar />
+        <SidebarInset>
+          <SiteHeader />
+        </SidebarInset>
+      </SidebarProvider>
+    </SearchProvider>
   );
 }
