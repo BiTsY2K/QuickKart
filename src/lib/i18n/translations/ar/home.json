@@ -1,0 +1,7 @@
+{
+  "welcome": "مرحبا",
+  "description": "هذا وصف باللغة العربية.",
+  "client-component": {
+    "heading": "هذا هو مكون العميل"
+  }
+}
